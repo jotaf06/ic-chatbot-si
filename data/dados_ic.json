@@ -1,0 +1,93 @@
+{
+  "disciplinas": [
+    {
+      "nome": "Banco de Dados",
+      "codigo": "COMP001",
+      "professor": "Prof. João Silva",
+      "sala": "Lab 1 — Bloco A",
+      "horarios": ["Seg 10h-12h", "Qua 10h-12h"],
+      "aliases": ["BD", "banco de dados", "database"]
+    },
+    {
+      "nome": "Estrutura de Dados",
+      "codigo": "COMP002",
+      "professor": "Profa. Maria Souza",
+      "sala": "Sala 204 — Bloco B",
+      "horarios": ["Ter 14h-16h", "Qui 14h-16h"],
+      "aliases": ["ED", "estrutura de dados", "EDA"]
+    },
+    {
+      "nome": "Cálculo I",
+      "codigo": "MAT001",
+      "professor": "Prof. Carlos Lima",
+      "sala": "Sala 101 — Bloco C",
+      "horarios": ["Seg 08h-10h", "Qua 08h-10h", "Sex 08h-09h"],
+      "aliases": ["calculo 1", "calculo I", "calculo um"]
+    },
+    {
+      "nome": "Programação Orientada a Objetos",
+      "codigo": "COMP003",
+      "professor": "Profa. Ana Ferreira",
+      "sala": "Lab 2 — Bloco A",
+      "horarios": ["Ter 10h-12h", "Qui 10h-12h"],
+      "aliases": ["POO", "orientada a objetos", "OOP"]
+    },
+    {
+      "nome": "Sistemas Operacionais",
+      "codigo": "COMP004",
+      "professor": "Prof. Pedro Costa",
+      "sala": "Sala 305 — Bloco B",
+      "horarios": ["Seg 16h-18h", "Sex 16h-18h"],
+      "aliases": ["SO", "sistemas operacionais"]
+    }
+  ],
+  "locais": [
+    {
+      "nome": "Secretaria",
+      "localizacao": "Bloco A, térreo, sala 002",
+      "horario": "Segunda a sexta, 8h-12h e 14h-17h"
+    },
+    {
+      "nome": "Coordenação",
+      "localizacao": "Bloco A, 1º andar, sala 101",
+      "horario": "Segunda a sexta, 9h-12h e 14h-17h"
+    },
+    {
+      "nome": "Lab 1",
+      "localizacao": "Bloco A, térreo, sala 010",
+      "horario": "Segunda a sexta, 7h-22h"
+    },
+    {
+      "nome": "Lab 2",
+      "localizacao": "Bloco A, térreo, sala 011",
+      "horario": "Segunda a sexta, 7h-22h"
+    },
+    {
+      "nome": "Biblioteca",
+      "localizacao": "Bloco C, térreo",
+      "horario": "Segunda a sexta, 8h-20h"
+    },
+    {
+      "nome": "RU",
+      "localizacao": "Restaurante Universitário — entrada principal do campus",
+      "horario": "Segunda a sexta, 11h-14h e 17h-19h"
+    }
+  ],
+  "contatos": [
+    {
+      "nome": "Coordenação do Curso",
+      "email": "coord.si@ic.ufal.br",
+      "telefone": "(82) 3214-1000"
+    },
+    {
+      "nome": "Secretaria",
+      "email": "secretaria@ic.ufal.br",
+      "telefone": "(82) 3214-1001"
+    },
+    {
+      "nome": "Suporte de TI",
+      "email": "ti@ic.ufal.br",
+      "telefone": "(82) 3214-1002"
+    }
+  ]
+}
