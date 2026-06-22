@@ -11,7 +11,6 @@ from src.utils.formatter import (
     format_not_found,
     format_unknown,
 )
-from src.bot.keyboards import start_keyboard
 
 WELCOME_MESSAGE = (
     "👋 Olá! Sou o bot do IC/UFAL.\n\n"
@@ -26,7 +25,6 @@ WELCOME_MESSAGE = (
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text(
         WELCOME_MESSAGE,
-        reply_markup=start_keyboard(),
     )
 
 
