@@ -1,93 +1,350 @@
 {
   "disciplinas": [
     {
+      "nome": "Álgebra Linear",
+      "codigo": "ECOM011",
+      "professor": "Arturo Jimenez Loaiza",
+      "sala": "sala-1",
+      "horarios": ["2T12"],
+      "aliases": ["álgebra linear", "algebra linear"]
+    },
+    {
       "nome": "Banco de Dados",
-      "codigo": "COMP001",
-      "professor": "Prof. João Silva",
-      "sala": "Lab 1 — Bloco A",
-      "horarios": ["Seg 10h-12h", "Qua 10h-12h"],
-      "aliases": ["BD", "banco de dados", "database"]
+      "codigo": "ECOM041",
+      "professor": "Fabio Jose Coutinho da Silva",
+      "sala": "sala-1",
+      "horarios": ["3T512"],
+      "aliases": ["BD", "banco de dados"]
+    },
+    {
+      "nome": "Cálculo 1",
+      "codigo": "CPTO035",
+      "professor": "Xu Yang",
+      "sala": "Auditório Instituto de Computação",
+      "horarios": ["3T56"],
+      "aliases": ["cálculo 1", "calculo 1"]
+    },
+    {
+      "nome": "Cálculo 2",
+      "codigo": "CPTO036",
+      "professor": "Xu Yang",
+      "sala": "Auditório Instituto de Computação",
+      "horarios": ["3M12"],
+      "aliases": ["cálculo 2", "calculo 2"]
+    },
+    {
+      "nome": "Cálculo 3",
+      "codigo": "ECOM017",
+      "professor": "Gleydson Santos da Silva",
+      "sala": "sala-1",
+      "horarios": ["3T12"],
+      "aliases": ["cálculo 3", "calculo 3"]
+    },
+    {
+      "nome": "Cálculo 4",
+      "codigo": "ECOM023",
+      "professor": "Gleydson Santos da Silva",
+      "sala": "sala-1",
+      "horarios": ["3M56"],
+      "aliases": ["cálculo 4", "calculo 4"]
+    },
+    {
+      "nome": "Circuitos Digitais",
+      "codigo": "ECOM012",
+      "professor": "Almir Pereira Guimarães",
+      "sala": "sala-1",
+      "horarios": ["3M56"],
+      "aliases": ["circuitos digitais"]
+    },
+    {
+      "nome": "Circuitos Elétricos",
+      "codigo": "ECOM028",
+      "professor": "Jobson de Araujo Nascimento",
+      "sala": "sala-1",
+      "horarios": ["3T12"],
+      "aliases": ["circuitos elétricos", "circuitos eletricos"]
+    },
+    {
+      "nome": "Computação Gráfica e Processamento de Imagens",
+      "codigo": "ECOM039",
+      "professor": "Tiago Figueiredo Vieira",
+      "sala": "sala-1",
+      "horarios": ["3M34"],
+      "aliases": ["computação gráfica", "processamento de imagens"]
+    },
+    {
+      "nome": "Conceitos de Linguagem de Programação",
+      "codigo": "COMP389",
+      "professor": "Rafael de Amorim Silva",
+      "sala": "IC",
+      "horarios": ["3M56"],
+      "aliases": ["CLP", "conceitos de linguagem"]
+    },
+    {
+      "nome": "Engenharia de Software",
+      "codigo": "ECOM021",
+      "professor": "Arturo Hernandez Dominguez",
+      "sala": "sala-1",
+      "horarios": ["2M12"],
+      "aliases": ["engenharia de software", "ES"]
     },
     {
       "nome": "Estrutura de Dados",
-      "codigo": "COMP002",
-      "professor": "Profa. Maria Souza",
-      "sala": "Sala 204 — Bloco B",
-      "horarios": ["Ter 14h-16h", "Qui 14h-16h"],
-      "aliases": ["ED", "estrutura de dados", "EDA"]
+      "codigo": "ECOM008",
+      "professor": "Marcio de Medeiros Ribeiro",
+      "sala": "sala-1",
+      "horarios": ["2M56"],
+      "aliases": ["estrutura de dados", "ED"]
     },
     {
-      "nome": "Cálculo I",
-      "codigo": "MAT001",
-      "professor": "Prof. Carlos Lima",
-      "sala": "Sala 101 — Bloco C",
-      "horarios": ["Seg 08h-10h", "Qua 08h-10h", "Sex 08h-09h"],
-      "aliases": ["calculo 1", "calculo I", "calculo um"]
+      "nome": "Física 1 - Mecânica",
+      "codigo": "IF0001",
+      "professor": "Artur da Silva Gouveia Neto",
+      "sala": "Sala 03 - IF",
+      "horarios": ["2M12"],
+      "aliases": ["física 1", "fisica 1"]
     },
     {
-      "nome": "Programação Orientada a Objetos",
-      "codigo": "COMP003",
-      "professor": "Profa. Ana Ferreira",
-      "sala": "Lab 2 — Bloco A",
-      "horarios": ["Ter 10h-12h", "Qui 10h-12h"],
-      "aliases": ["POO", "orientada a objetos", "OOP"]
+      "nome": "Física 2 - Fluidos, Oscilações, Ondas e Termodinâmica",
+      "codigo": "IF0002",
+      "professor": "Elton Malta Nascimento",
+      "sala": "Sala 02 - IF",
+      "horarios": ["2T12"],
+      "aliases": ["física 2", "fisica 2"]
     },
     {
-      "nome": "Sistemas Operacionais",
-      "codigo": "COMP004",
-      "professor": "Prof. Pedro Costa",
-      "sala": "Sala 305 — Bloco B",
-      "horarios": ["Seg 16h-18h", "Sex 16h-18h"],
-      "aliases": ["SO", "sistemas operacionais"]
-    }
-  ],
-  "locais": [
-    {
-      "nome": "Secretaria",
-      "localizacao": "Bloco A, térreo, sala 002",
-      "horario": "Segunda a sexta, 8h-12h e 14h-17h"
+      "nome": "Física 3 - Eletricidade e Magnetismo",
+      "codigo": "IF0003",
+      "professor": "Paulo Cesar Aguiar Brandao Filho",
+      "sala": "Sala 03 - IF",
+      "horarios": ["3M34"],
+      "aliases": ["física 3", "fisica 3"]
     },
     {
-      "nome": "Coordenação",
-      "localizacao": "Bloco A, 1º andar, sala 101",
-      "horario": "Segunda a sexta, 9h-12h e 14h-17h"
+      "nome": "Inglês Instrumental - Leitura de Textos Acadêmicos em Língua Inglesa",
+      "codigo": "FALE0002",
+      "professor": "Paulo Leoncio da Silva",
+      "sala": "Sala 204 do bloco 12",
+      "horarios": ["5T1234"],
+      "aliases": ["inglês instrumental", "ingles instrumental"]
     },
     {
-      "nome": "Lab 1",
-      "localizacao": "Bloco A, térreo, sala 010",
-      "horario": "Segunda a sexta, 7h-22h"
+      "nome": "Lógica Aplicada à Computação",
+      "codigo": "ECOM007",
+      "professor": "Evandro de Barros Costa",
+      "sala": "sala-1",
+      "horarios": ["3M34"],
+      "aliases": ["lógica", "logica"]
     },
     {
-      "nome": "Lab 2",
-      "localizacao": "Bloco A, térreo, sala 011",
-      "horario": "Segunda a sexta, 7h-22h"
+      "nome": "Matemática Discreta",
+      "codigo": "ECOM003",
+      "professor": "Bruno Almeida Pimentel",
+      "sala": "sala-1",
+      "horarios": ["2T56"],
+      "aliases": ["matemática discreta", "matematica discreta"]
     },
     {
-      "nome": "Biblioteca",
-      "localizacao": "Bloco C, térreo",
-      "horario": "Segunda a sexta, 8h-20h"
+      "nome": "Microcontroladores e Aplicações",
+      "codigo": "ECOM059",
+      "professor": "Erick de Andrade Barboza",
+      "sala": "sala-1",
+      "horarios": ["2T12"],
+      "aliases": ["microcontroladores"]
     },
     {
-      "nome": "RU",
-      "localizacao": "Restaurante Universitário — entrada principal do campus",
-      "horario": "Segunda a sexta, 11h-14h e 17h-19h"
-    }
-  ],
-  "contatos": [
-    {
-      "nome": "Coordenação do Curso",
-      "email": "coord.si@ic.ufal.br",
-      "telefone": "(82) 3214-1000"
+      "nome": "Princípios de Comunicação",
+      "codigo": "ECOM034",
+      "professor": "Jobson de Araujo Nascimento",
+      "sala": "sala-1",
+      "horarios": ["3M56"],
+      "aliases": ["princípios de comunicação", "comunicação"]
     },
     {
-      "nome": "Secretaria",
-      "email": "secretaria@ic.ufal.br",
-      "telefone": "(82) 3214-1001"
+      "nome": "Probabilidade e Estatística",
+      "codigo": "ECOM020",
+      "professor": "Arturo Jimenez Loaiza",
+      "sala": "sala-1",
+      "horarios": ["2M56"],
+      "aliases": ["probabilidade", "estatística"]
     },
     {
-      "nome": "Suporte de TI",
-      "email": "ti@ic.ufal.br",
-      "telefone": "(82) 3214-1002"
-    }
+      "nome": "Processamento Digital de Sinais",
+      "codigo": "ECOM063",
+      "professor": "Icaro Bezerra Queiroz de Araujo",
+      "sala": "sala-1",
+      "horarios": ["2T34"],
+      "aliases": ["PDS", "processamento digital de sinais"]
+    },
+    {
+      "nome": "Programação 1",
+      "codigo": "ECOM002",
+      "professor": "Willy Carvalho Tiengo",
+      "sala": "sala-1",
+      "horarios": ["6T3456"],
+      "aliases": ["programação 1", "prog 1", "P1"]
+    },
+    {
+      "nome": "Projeto e Análise de Algoritmos",
+      "codigo": "ECOM027",
+      "professor": "Iran Gabriel Santos Pinheiro",
+      "sala": "sala-1",
+      "horarios": ["2M56"],
+      "aliases": ["PAA", "projeto e análise de algoritmos"]
+    },
+    {
+      "nome": "Projeto de Software",
+      "codigo": "ECOM105",
+      "professor": "Baldoino Fonseca dos Santos Neto",
+      "sala": "sala-1",
+      "horarios": ["4T3456"],
+      "aliases": ["projeto de software"]
+    },
+    [
+  {
+    "nome": "Empreendedorismo",
+    "codigo": "ECOM040",
+    "professor": "Mario Hozano Lucas de Souza",
+    "sala": "sala-1",
+    "horarios": ["3M34"],
+    "aliases": ["empreendedorismo"]
+  },
+  {
+    "nome": "Instrumentação Eletrônica",
+    "codigo": "ECOM060",
+    "professor": "Mauricio Beltrao de Rossiter Correa",
+    "sala": "sala-1",
+    "horarios": ["5T34"],
+    "aliases": ["instrumentação eletrônica"]
+  },
+  {
+    "nome": "Inteligência Artificial",
+    "codigo": "ECOM031",
+    "professor": "Evandro de Barros Costa",
+    "sala": "sala-1",
+    "horarios": ["3T34"],
+    "aliases": ["IA", "inteligência artificial"]
+  },
+  {
+    "nome": "Introdução à Engenharia de Computação",
+    "codigo": "ECOM006",
+    "professor": "Thiago Damasceno Cordeiro",
+    "sala": "sala-1",
+    "horarios": ["2T12"],
+    "aliases": ["introdução à engenharia de computação"]
+  },
+  {
+    "nome": "Introdução à Identificação de Sistemas",
+    "codigo": "ECOM121",
+    "professor": "Icaro Bezerra Queiroz de Araujo",
+    "sala": "sala-1",
+    "horarios": ["2M34"],
+    "aliases": ["identificação de sistemas"]
+  },
+  {
+    "nome": "Introdução à Robótica Móvel",
+    "codigo": "CPTO034",
+    "professor": "Leonardo Viana Pereira",
+    "sala": "IC",
+    "horarios": ["3M34", "2T34"],
+    "aliases": ["robótica móvel"]
+  },
+  {
+    "nome": "Laboratório de Eletrônica",
+    "codigo": "ECOM066",
+    "professor": "Joao Raphael Souza Martins",
+    "sala": "sala-1",
+    "horarios": ["5M34"],
+    "aliases": ["lab de eletrônica"]
+  },
+  {
+    "nome": "Laboratório de Física 3 - Eletricidade e Magnetismo",
+    "codigo": "IF0006",
+    "professor": "Wandearley da Silva Dias",
+    "sala": "Laboratório de Ensino 3 - IF",
+    "horarios": ["5M12"],
+    "aliases": ["lab física 3"]
+  },
+  {
+    "nome": "Linguagens Formais, Autômatos e Computabilidade",
+    "codigo": "ECOM014",
+    "professor": "Leandro Dias da Silva",
+    "sala": "sala-1",
+    "horarios": ["2T34"],
+    "aliases": ["LFAC", "autômatos"]
+  },
+  {
+    "nome": "Mecânica dos Sólidos 1",
+    "codigo": "ECIV018",
+    "professor": "Wayne Santos de Assis",
+    "sala": "CTEC - Sala A3",
+    "horarios": ["2M34"],
+    "aliases": ["mecânica dos sólidos"]
+  },
+  {
+    "nome": "Meta-Aprendizagem",
+    "codigo": "CPTO037",
+    "professor": "Lucas Benevides Viana de Amorim",
+    "sala": "IC - Consultar Laboratório",
+    "horarios": ["2M34"],
+    "aliases": ["meta-aprendizagem"]
+  },
+  {
+    "nome": "Metodologia da Pesquisa e do Trabalho Científico",
+    "codigo": "ECOM018",
+    "professor": "Julia Gabriele Lima da Rosa",
+    "sala": "sala-1",
+    "horarios": ["2T56"],
+    "aliases": ["metodologia científica"]
+  },
+  {
+    "nome": "Métodos Numéricos",
+    "codigo": "ECOM036",
+    "professor": "Thales Miranda de Almeida Vieira",
+    "sala": "sala-1",
+    "horarios": ["2M56"],
+    "aliases": ["métodos numéricos"]
+  },
+  {
+    "nome": "Microcontroladores e Aplicações",
+    "codigo": "ECOM059",
+    "professor": "Erick de Andrade Barboza",
+    "sala": "sala-1",
+    "horarios": ["2T12"],
+    "aliases": ["microcontroladores"]
+  },
+  {
+    "nome": "Noções de Direito",
+    "codigo": "ECOM046",
+    "professor": "Cid Cavalcanti de Albuquerque",
+    "sala": "sala-1",
+    "horarios": ["3T3456"],
+    "aliases": ["direito"]
+  },
+  {
+    "nome": "Organização e Arquitetura de Computadores",
+    "codigo": "ECOM025",
+    "professor": "Erick de Andrade Barboza",
+    "sala": "sala-1",
+    "horarios": ["2M34"],
+    "aliases": ["OAC", "organização de computadores"]
+  },
+  {
+    "nome": "Pesquisa Operacional",
+    "codigo": "ECOM091",
+    "professor": "Rian Gabriel Santos Pinheiro",
+    "sala": "sala-1",
+    "horarios": ["3T12"],
+    "aliases": ["pesquisa operacional"]
+  },
+  {
+    "nome": "Princípios de Comunicação",
+    "codigo": "ECOM034",
+    "professor": "Jobson de Araujo Nascimento",
+    "sala": "sala-1",
+    "horarios": ["3M56"],
+    "aliases": ["comunicações"]
+  }
+]
   ]
 }

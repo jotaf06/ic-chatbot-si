@@ -3,6 +3,12 @@
 Bot do Telegram que responde perguntas de alunos sobre disciplinas, locais e contatos do Instituto de Computação (IC) — UFAL.
 
 > Projeto para a disciplina de **Sistemas de Informação** — UFAL.
+Grupo composto por:
+- Aldeane da Silva 
+- José Félix
+- Rômulo Siqueira
+- Matheus Macário
+- Rafael Santana
 
 ## Como funciona
 
